@@ -17,16 +17,16 @@ EventHandler.C          ====>   Machine Code Generation for Event Handling
 All important test cases are stored in "demotests" folder. Following are different test cases:
 
 
-* 1_operator         Tests all binary and unary arithmetic operators 
-* 2_fibonaci         Recursive function to compute nth fibonaci number
-* 3_factorial        Recursive function to compute factorial of a number
-* 4_functionCall     Function Call flow "event_a => foo20 => foo19 => ... => foo1"
-* 5_functionDeadCode Eliminating Dead function definitions 
-* 6_whileloop        Tests usage of nested while loops with continue
-* 7_deadcode         Tests dead code elimiation of assignment statements
-* 8_3events          Tests event handling logic of selecting multiple events
-* 9_zeroOptimizer    Static Evaluation of operations with zero operands
-* 10_recursion       Recursive calls printing the recursion depth and local variables across different calls
+demotests/1_operator         Tests all binary and unary arithmetic operators 
+demotests/2_fibonaci         Recursive function to compute nth fibonaci number
+demotests/3_factorial        Recursive function to compute factorial of a number
+demotests/4_functionCall     Function Call flow "event_a => foo20 => foo19 => ... => foo1"
+demotests/5_functionDeadCode Eliminating Dead function definitions 
+demotests/6_whileloop        Tests usage of nested while loops with continue
+demotests/7_deadcode         Tests dead code elimiation of assignment statements
+demotests/8_3events          Tests event handling logic of selecting multiple events
+demotests/9_zeroOptimizer    Static Evaluation of operations with zero operands
+demotests/10_recursion       Recursive calls printing the recursion depth and local variables across different calls
 
 
 For more test cases, refer to "alltests" folder. This has a set of negative test cases for testing syntax and semantic errors.
