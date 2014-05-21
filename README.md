@@ -17,16 +17,16 @@ EventHandler.C          ====>   Machine Code Generation for Event Handling
 All important test cases are stored in "demotests" folder. Following are different test cases:
 
 
-* 1_operator              ====>   Tests all binary and unary arithmetic operators 
-* 2_fibonaci              ====>   Recursive function to compute nth fibonaci number
-* 3_factorial             ====>   Recursive function to compute factorial of a number
-* 4_functionCall          ====>   Function Call flow "event_a => foo20 => foo19 => ... => foo1"
-* 5_functionDeadCode      ====>   Eliminating Dead function definitions 
-* 6_whileloop             ====>   Tests usage of nested while loops with continue
-* 7_deadcode              ====>   Tests dead code elimiation of assignment statements
-* 8_3events               ====>   Tests event handling logic of selecting multiple events
-* 9_zeroOptimizer         ====>   Static Evaluation of operations with zero operands
-* 10_recursion            ====>   Recursive calls printing the recursion depth and local variables across different calls
+* 1_operator         Tests all binary and unary arithmetic operators 
+* 2_fibonaci         Recursive function to compute nth fibonaci number
+* 3_factorial        Recursive function to compute factorial of a number
+* 4_functionCall     Function Call flow "event_a => foo20 => foo19 => ... => foo1"
+* 5_functionDeadCode Eliminating Dead function definitions 
+* 6_whileloop        Tests usage of nested while loops with continue
+* 7_deadcode         Tests dead code elimiation of assignment statements
+* 8_3events          Tests event handling logic of selecting multiple events
+* 9_zeroOptimizer    Static Evaluation of operations with zero operands
+* 10_recursion       Recursive calls printing the recursion depth and local variables across different calls
 
 
 For more test cases, refer to "alltests" folder. This has a set of negative test cases for testing syntax and semantic errors.
@@ -61,7 +61,7 @@ On successful build, compiler binary "demo" is generated.
 Sample execution of `3_factorial` testcase:
 
 ```
-sahil@sahil:~/emmCompiler/project$ ./erun factorial.i -dr -df -m 10000000 -dm 9990 10000
+aniket@aniket:~/emmCompiler/project$ ./erun factorial.i -dr -df -m 10000000 -dm 9990 10000
 
 Enter Event Name ('0' for exit): a
 Enter Param 1: 8
@@ -85,7 +85,8 @@ https://github.com/aniketalshi/emmCompiler
 #
 The MIT License (MIT)
 
+Copyright (c) 2014 Aniket Alshi
 Copyright (c) 2014 Sahil Parmar
 Copyright (c) 2014 Tejal Kaple
 Copyright (c) 2014 Sohil Gandhi
-Copyright (c) 2014 Aniket Alshi
+
