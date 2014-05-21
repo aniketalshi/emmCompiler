@@ -16,7 +16,7 @@ EventHandler.C          ====>   Machine Code Generation for Event Handling
 ### Test Cases:
 All important test cases are stored in "demotests" folder. Following are different test cases:
 
-
+```
 demotests/1_operator         Tests all binary and unary arithmetic operators 
 demotests/2_fibonaci         Recursive function to compute nth fibonaci number
 demotests/3_factorial        Recursive function to compute factorial of a number
@@ -27,7 +27,7 @@ demotests/7_deadcode         Tests dead code elimiation of assignment statements
 demotests/8_3events          Tests event handling logic of selecting multiple events
 demotests/9_zeroOptimizer    Static Evaluation of operations with zero operands
 demotests/10_recursion       Recursive calls printing the recursion depth and local variables across different calls
-
+```
 
 For more test cases, refer to "alltests" folder. This has a set of negative test cases for testing syntax and semantic errors.
 
