@@ -86,7 +86,11 @@ https://github.com/aniketalshi/emmCompiler
 The MIT License (MIT)
 
 Copyright (c) 2014 Aniket Alshi
+
 Copyright (c) 2014 Sahil Parmar
+
 Copyright (c) 2014 Tejal Kaple
+
 Copyright (c) 2014 Sohil Gandhi
+
 
